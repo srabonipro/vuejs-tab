@@ -11,7 +11,8 @@
                 </p>
             </div>
             <div class="the-card__footer">
-                <a href="#">Japan</a>
+                <a href="#">Japan</a> <br>
+                <input type="text" placeholder="Give a feedback">
             </div>
         </div>
     </div>

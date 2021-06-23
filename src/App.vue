@@ -7,7 +7,9 @@
     <button @click="activeTab = 'TabC'" class="btn btn-secondary">TabC</button>
   </div>
 
-  <component :is="activeTab"></component>
+  <keep-alive>
+    <component :is="activeTab"></component>
+  </keep-alive>
 
   <!-- <TabA v-if="activeTab === 'TabA'" />
   <TabB v-if="activeTab === 'TabB'" />
